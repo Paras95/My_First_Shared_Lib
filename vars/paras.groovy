@@ -14,3 +14,7 @@ def class1(){
     def obj = new ParasSrc(this, this)
     obj.env()
 }
+
+def unique(name){
+    echo "my name is ${name}"
+}
